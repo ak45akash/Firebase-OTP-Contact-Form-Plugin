@@ -69,6 +69,7 @@ Go to Plugins in the WordPress Admin Dashboard, locate the plugin, and click Act
 ### 5. Use the Plugin Shortcode
 Add [firebase_otp_contact_form] to any page or post to render the contact form.
 
+---
 
 ## 🔮 Future Enhancements  
 
