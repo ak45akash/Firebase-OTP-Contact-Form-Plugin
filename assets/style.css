@@ -1,0 +1,110 @@
+/* General form styling */
+#otp-contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Input field styles */
+#otp-contact-form input,
+#otp-contact-form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #28c76f;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Placeholder text color */
+#otp-contact-form input::placeholder,
+#otp-contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+/* Button styling for consistent width and appearance */
+#send-otp, #verify-otp, #submit-message {
+    width: 100%;
+    background-color: #28c76f;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 14px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#send-otp:hover, #verify-otp:hover, #submit-message:hover {
+    background-color: #22a463;
+}
+
+/* Disabled button styles */
+#send-otp:disabled, 
+#verify-otp:disabled, 
+#submit-message:disabled {
+    background-color: #cccccc;  
+    color: #666666;             
+    cursor: not-allowed;         
+    box-shadow: none;
+    opacity: 0.7;
+}
+
+/* Recaptcha container margin */
+#recaptcha-container {
+    margin-bottom: 10px;
+}
+
+/* Phone input field styling with intl-tel-input plugin */
+.iti {
+    width: 100%;
+}
+
+.iti input {
+    padding-left: 58px !important; /* Ensure flag dropdown does not overlap with text */
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.iti .iti__selected-flag:focus {
+    outline: none;
+}
+
+.iti .iti__selected-dial-code {
+    display: none;
+}
+
+.iti ul.iti__country-list li.iti__country {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Label styling for better alignment */
+#otp-contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 480px) {
+    #otp-contact-form {
+        width: 100%;
+    }
+}
+
+/* Hide page title for all pages */
+.entry-title, .wp-block-post-title {
+    display: none;
+}
