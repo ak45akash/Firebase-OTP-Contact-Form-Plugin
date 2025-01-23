@@ -51,7 +51,7 @@ Follow these steps to install and activate the plugin:
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/your-username/your-repository.git](https://github.com/ak45akash/Firebase-OTP-Contact-Form-Plugin.git
 cd your-repository
 
 ```
