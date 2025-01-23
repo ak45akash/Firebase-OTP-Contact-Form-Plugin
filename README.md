@@ -53,3 +53,38 @@ Follow these steps to install and activate the plugin:
 ```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
+
+### 2. Upload to WordPress Plugins Folder
+Copy the plugin folder into the wp-content/plugins/ directory of your WordPress installation.
+
+### 3. Activate the Plugin
+Go to Plugins in the WordPress Admin Dashboard, locate the plugin, and click Activate.
+
+### 4. Firebase Configuration
+    - **Obtain your Firebase configuration from the Firebase Console.**
+    - **Add the configuration to the .env file (recommended) or define it in the wp-config.php file of your WordPress site. Future updates will allow this configuration through the admin panel.**
+
+### 5. Use the Plugin Shortcode
+Add [firebase_otp_contact_form] to any page or post to render the contact form.
+
+
+## 🔮 Future Enhancements  
+
+- **Advanced Email Templates**  
+  - Use customizable HTML templates for acknowledgment emails.  
+
+- **Phone Number Blacklist**  
+  - Add functionality to detect and block blacklisted or spam numbers.  
+
+- **Frontend Admin Page**  
+  - Add a settings page in the WordPress admin panel to allow Firebase configurations directly from the dashboard, removing the need to modify PHP files manually.  
+
+- **Google reCAPTCHA v3 Enhancements**  
+  - Implement better bot detection with reCAPTCHA v3 or enterprise features.  
+
+- **Plugin Backend Enhancements**  
+  - Create a backend dashboard to view form submissions directly from the WordPress admin panel.  
+
+- **Real-time Validation of Phone Numbers**  
+  - Validate phone numbers in real-time against predefined criteria.  
+
