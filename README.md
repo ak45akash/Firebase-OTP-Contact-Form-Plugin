@@ -54,6 +54,8 @@ Follow these steps to install and activate the plugin:
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 
+```
+
 ### 2. Upload to WordPress Plugins Folder
 Copy the plugin folder into the wp-content/plugins/ directory of your WordPress installation.
 
